@@ -1,0 +1,15 @@
+[package]
+name = "byte_beats"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+nih_plug = { git = "https://github.com/lbulla/nih-plug.git", branch = "au" }
+nih_plug_vizia = { git = "https://github.com/lbulla/nih-plug.git", branch = "au" }
+
+atomic_float = "1.1.0"
+libquickjs-sys = "0.10.0"
+parking_lot = "0.12.3"
